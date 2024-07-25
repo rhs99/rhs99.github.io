@@ -3,53 +3,80 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
     <title>Rakibul Sarker</title>
     <link href="style.css" rel="stylesheet">
 </head>
 
 <body>
-    <div class="content">
-        <div id="about">
-            <h1>About Me</h1>
-            <p>
-                I am Md. Rakibul Hasan Sarker, a Computer Science graduate, currently working as a Software Engineer II
-                at Optimizely.
-                <br>
-                I have deep interest in Database and Distributed Systems. I like to design and build complex systems
-                ensuring reliability, availability, fault-tolerance and scalability.
-            </p>
-            <div>
-                <p>Phone: +8801611496418</p>
-                <p>Email: rhrana99@gmail.com</p>
-                <p>Github: </p>
-                <p>LinkedIn: </p>
-            </div>
+    <nav class="navigation">
+        <a href="#about">Home</a>
+        <a href="#education">Education</a>
+        <a href="#research">Research</a>
+        <a href="#experience">Experience</a>
+        <a href="#project">Projects</a>
+        <a href="#skill">Skills</a>
+        <a href="#achievement">Achievements</a>
+        <a href="#extra-curricular">Activities</a>
+    </nav>
 
+    <div class="content">
+        <div class="aboutme" id="about">
+            <div class="pic">
+                <img src="person.jpg" class="img-content">
+            </div>
+            <div>
+                <h1>Md. Rakibul Hasan Sarker</h1>
+                <p class="intro">
+                    My research interests include <strong>Database and Distributed Systems</strong>.
+                    <br>
+                    I like to design and build systems that are reliable, scalable and fault-tolerant.
+                    I like to investigate performance issues specially in the database layer.
+                </p>
+                <div class="contact">
+                    <span>Phone: +8801611496418</span>
+                    <span>Email: rhrana99@gmail.com</span>
+                    <a href="https://github.com/rhs99" target="_blank">Github</a>
+                    <a href="https://linkedin.com/in/mrhs" target="_blank">LinkedIn</a>
+                </div>
+            </div>
         </div>
 
+        <hr>
 
         <div id="education">
-            <h1>Education</h1>
-            <p>Bachelor of Science(B.Sc) in Computer Science and Engineering(CSE)</p>
-            <p>Bangladesh University of Engineering and Technology(BUET)</p>
-            <p>CGPA: 3.85/4.0</p>
-            <p>Rank: 16/127</p>
+            <h2>Education</h2>
+            <ul>
+                <p class="custom-title">
+                    <strong>Bangladesh University of Engineering and Technology(BUET)</strong>
+                    <span>Feb.2017-May.2022</span>
+                </p>
+                <p>Bachelor of Science(B.Sc) in Computer Science and Engineering(CSE)</p>
+                <ul>
+                    <li>
+                        <strong>CGPA: </strong>3.85 / 4.0
+                    </li>
+                    <li>
+                        <strong>Rank: </strong>16 out of 127 students
+                    </li>
+                </ul>
+            </ul>
         </div>
 
 
         <div id="research">
-            <h1>Research Experience</h1>
+            <h2>Research Experience</h2>
             <ul>
-                <li>
-                    <h2>Undergrad Thesis</h2>
-                </li>
-                <p>Cancer Genomic Analysis of non-coding Regions</p>
-                <p>Bioinformatics | Statistics | Machine Learning | Python</p>
+                <h3>Undergrad Thesis</h3>
+                <p class="custom-title">
+                    <strong>Cancer Genomic Analysis of non-coding Regions</strong>
+                    <span>Bioinformatics | Statistics | Machine Learning | Python</span>
+                </p>
                 Supervised by
                 <ol>
-                    <li><a href="">Dr. Atif Hasan Rahman</a></li>
-                    <li><a href="">Dr. Abul Hassan Samee</a></li>
+                    <li><a href="https://scholar.google.com/citations?hl=en&user=Haius0wAAAAJ" target="_blank">Dr. Atif
+                            Rahman</a></li>
+                    <li><a href="https://scholar.google.com/citations?hl=en&user=EuNfE44AAAAJ" target="_blank">Dr. Md
+                            Abul Hassan Samee</a></li>
                 </ol>
                 <p>
                     We tried to identify significant mutations in non-coding regions through statistical analysis.
@@ -64,140 +91,165 @@
 
 
         <div id="experience">
-            <h1>Professional Experience</h1>
+            <h2>Professional Experience</h2>
             <ul>
                 <li>
-                    <h2>Adjunct Lecturer</h2>
+                    <h3>Adjunct Lecturer</h3>
+                    <p class="custom-title">
+                        <strong>
+                            Bangladesh University of Engineering and Technology(BUET)
+                        </strong>
+                        <span>
+                            Nov.2022 - Apr.2023
+                        </span>
+                    </p>
+                    Instructed the following courses:
+                    <ul>
+                        <li>CSE109 : Computer Programming </li>
+                        <li>CSE110 : Computer Programming Sessional </li>
+                        <li>CSE204 : Algorithm and Data Structures Sessional </li>
+                        <li>CSE102 : Structured Programming Sessional </li>
+                        <li>CSE300 : Technical Writing and Presentation Sessional </li>
+                    </ul>
                 </li>
-                Bangladesh University of Engineering and Technology(BUET) | Nov.2022 - Apr.2023
-                <br>
-                Instructed the following courses:
-                <ol>
-                    <li>CSE109 : Computer Programming </li>
-                    <li>CSE110 : Computer Programming Sessional </li>
-                    <li>CSE204 : Algorithm and Data Structures Sessional </li>
-                    <li>CSE102 : Structured Programming Sessional </li>
-                    <li>CSE300 : Technical Writing and Presentation Sessional </li>
-                </ol>
                 <li>
-                    <h2>Software Engineer II</h2>
-                    Optimizely | Jan.2024-PRESENT
-                    <ol>
+                    <h3>Software Engineer II</h3>
+                    <p class="custom-title">
+                        <strong>
+                            Optimizely
+                        </strong>
+                        <span>
+                            Jan.2024-PRESENT
+                        </span>
+                    </p>
+                    <ul>
                         <li>Implemented event-based asynchronous communication instead of blocking synchronous
                             calls.</li>
                         <li>Improved several database query performance by creating appropriate indexes.</li>
                         <li>Upgraded Elasticsearch version of production cluster maintaining zero downtime. </li>
-                    </ol>
+                    </ul>
                 </li>
                 <li>
-                    <h2>Software Engineer I</h2>
-                    Optimizely | Nov.2022-Dec.2023
-                    <ol>
-
+                    <h3>Software Engineer I</h3>
+                    <p class="custom-title">
+                        <strong>
+                            Optimizely
+                        </strong>
+                        <span>
+                            Nov.2022-Dec.2023
+                        </span>
+                    </p>
+                    <ul>
                         <li>Worked on the Digital Asset Management platform(similar to Google Drive).</li>
                         <li>Optimized searching and filtering of millions of assets.</li>
                         <li>Reduced indexing of millions of assets in Elasticsearch.</li>
                         <li>Extensively worked with MySQL, Elasticsearch, and Redis.</li>
-                    </ol>
+                    </ul>
 
                 </li>
                 <li>
-                    <h2>Software Engineering Intern</h2>
-                    Optimizely | May.2022-Oct.2022
-                    <ol>
-
+                    <h3>Software Engineering Intern</h3>
+                    <p class="custom-title">
+                        <strong>
+                            Optimizely
+                        </strong>
+                        <span>
+                            May.2022-Oct.2022
+                        </span>
+                    </p>
+                    <ul>
                         <li>Developed three independent services from scratch, enabling the generation of image
                             renditions based on provided configurations.</li>
                         <li>Implemented robust asynchronous communication utilizing message queues, enhancing
                             system performance and scalability.</li>
                         <li>Implemented asynchronous handling of long-running tasks, ensuring smooth and
                             uninterrupted operation of the system.</li>
-                    </ol>
+                    </ul>
                 </li>
             </ul>
         </div>
 
 
 
-        <div id="projects">
-            <h1>Projects</h1>
+        <div id="project">
+            <h2>Projects</h2>
             <ul>
                 <li>
-                    <h2>Operating System</h2>
+                    <h3>Operating System</h3>
                     <ul>
                         <li>
-                            <h3>xv6</h3>
+                            <h4>xv6</h4>
                         </li>
                         <li>
-                            <h3>NachOS</h3>
+                            <h4>NachOS</h4>
                         </li>
                     </ul>
                 </li>
                 <li>
-                    <h2>C Compiler</h2>
+                    <h3>C Compiler</h3>
                 </li>
 
                 <li>
-                    <h2>Machine Learning</h2>
+                    <h3>Machine Learning</h3>
                     <ul>
                         <li>
-                            <h3>Pneumonia Detection From Chest X-ray</h3>
+                            <h4>Pneumonia Detection From Chest X-ray</h4>
                         </li>
                         <li>
-                            <h3>Convolutional Neural Network(CNN)</h3>
-                        </li>
-                    </ul>
-                </li>
-
-                <li>
-                    <h2>Artificial Intellengence</h2>
-                    <ul>
-                        <li>
-                            <h3>Lines of Action:</h3>
-                        </li>
-                        <li>
-                            <h3>Ghost Busters</h3>
-                        </li>
-                        <li>
-                            <h3>Latin Square</h3>
-                        </li>
-                        <li>
-                            <h3>Optimal Exam Scheduling</h3>
-                        </li>
-                        <li>
-                            <h3>n-puzzle</h3>
+                            <h4>Convolutional Neural Network(CNN)</h4>
                         </li>
                     </ul>
                 </li>
 
                 <li>
-                    <h2>Smart Room</h2>
-                </li>
-
-                <li>
-                    <h2>Web App</h2>
+                    <h3>Artificial Intellengence</h3>
                     <ul>
-
                         <li>
-                            <h3>Healthcare Management system</h3>
+                            <h4>Lines of Action</h4>
                         </li>
                         <li>
-                            <h3>Learn Together</h3>
+                            <h4>Ghost Busters</h4>
                         </li>
                         <li>
-                            <h3>University Institutional Information System</h3>
+                            <h4>Latin Square</h4>
+                        </li>
+                        <li>
+                            <h4>Optimal Exam Scheduling</h4>
+                        </li>
+                        <li>
+                            <h4>n-puzzle</h4>
                         </li>
                     </ul>
                 </li>
 
                 <li>
-                    <h2>Desktop App</h2>
+                    <h3>Smart Room</h3>
+                </li>
+
+                <li>
+                    <h3>Web App</h3>
                     <ul>
+
                         <li>
-                            <h3>Drug Information Management System</h3>
+                            <h4>Healthcare Management system</h4>
                         </li>
                         <li>
-                            <h3>Network Texas Hold'em Poker</h3>
+                            <h4>Learn Together</h4>
+                        </li>
+                        <li>
+                            <h4>University Institutional Information System</h4>
+                        </li>
+                    </ul>
+                </li>
+
+                <li>
+                    <h3>Desktop App</h3>
+                    <ul>
+                        <li>
+                            <h4>Drug Information Management System</h4>
+                        </li>
+                        <li>
+                            <h4>Network Texas Hold'em Poker</h4>
                         </li>
                     </ul>
                 </li>
@@ -206,55 +258,59 @@
         </div>
 
         <div id="skill">
-            <h1>Technical Skills</h1>
+            <h2>Technical Skills</h2>
             <ul>
                 <li>
-                    Programming Language: C, C++, Python, Java, Go, Javascript, Bash
+                    <strong>Programming Language: </strong>C, C++, Python, Java, Go, Javascript, Bash
                 </li>
                 <li>
-                    Database: MySQL, PostgreSQL, MongoDB, Neo4j, Redis, Elasticsearch
-
+                    <strong>Database: </strong>MySQL, PostgreSQL, MongoDB, Neo4j, Redis, Elasticsearch
                 </li>
                 <li>
-                    Tools: Linux, Git, Docker, Kubernetes, Jenkins, LaTeX
-
+                    <strong>Tools: </strong>Linux, Git, Docker, Kubernetes, Jenkins, LaTeX
                 </li>
             </ul>
         </div>
 
         <div id="achievement">
-            <h1>Achievements</h1>
+            <h2>Achievements</h2>
             <ul>
                 <li>
-                    Scholarship, University Dean's List | BUET
+                    <p class="custom-title">
+                        Scholarship, University Dean's List
+                        <span>BUET</span>
+                    </p>
                 </li>
                 <li>
-                    Scholarship, University Merit | BUET
+                    <p class="custom-title">
+                        Scholarship | University Merit
+                        <span>BUET</span>
+                    </p>
                 </li>
                 <li>
-                    Scholarship, University Stipend | BUET
+                    <p class="custom-title">
+                        13th | ACM ICPC Regional Preliminary Round
+                        <span>Dhaka, 2020</span>
+                    </p>
                 </li>
                 <li>
-                    Scholarship, Technical | BUET
-                </li>
-                <li>
-                    13th, ACM ICPC Regional Preliminary Round
-                </li>
-                <li>
-                    13th, ACM ICPC Regional Main Round
+                    <p class="custom-title">
+                        13th | ACM ICPC Regional Main Round
+                        <span>Dhaka, 2019</span>
+                    </p>
                 </li>
             </ul>
         </div>
 
 
         <div id="extra-curricular">
-            <h1>Extra Curricular Activities</h1>
+            <h2>Extra Curricular Activities</h2>
             <ul>
                 <li>
-                    Participated in more than 10 Inter University Programming Contests
+                    Participated in more than 10 Inter University Programming Contests.
                 </li>
                 <li>
-                    Participated in two ACM ICPC Regional Contests in Dhaka Site
+                    Participated in two ACM ICPC Regional Contests in Dhaka Site.
                 </li>
                 <li>
                     Solved over 1500 problems in online problem solving platforms like Codeforces, Codechef.
