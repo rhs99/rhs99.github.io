@@ -17,11 +17,12 @@
         <a href="#skill">Skills</a>
         <a href="#achievement">Achievements</a>
         <a href="#extra-curricular">Activities</a>
+        </div>
     </nav>
 
     <div class="content">
         <div class="aboutme" id="about">
-            <div class="pic">
+            <div>
                 <img src="person.jpg" class="img-content">
             </div>
             <div>
@@ -95,7 +96,7 @@
 
         <div id="experience">
             <h2>Professional Experience</h2>
-            <ul>
+            <ul class="exp-list">
                 <li>
                     <h3>Adjunct Lecturer</h3>
                     <p class="custom-title">
@@ -176,30 +177,94 @@
 
         <div id="project">
             <h2>Projects</h2>
-            <ul>
+            <ul class="project-list">
                 <li>
                     <h3>Operating System</h3>
                     <ul>
-                        <li>
-                            <h4>xv6</h4>
+                        <li class="project-title-container">
+                            <p class="project-title">
+                                <a href="https://github.com/rhs99/xv6-labs-2023" target="_blank">
+                                    xv6
+                                </a>
+                                <span>2024</span>
+                            </p>
+                            <span>C</span>
+                            <ul>
+                                Implemented different shell utilities.
+                            </ul>
                         </li>
-                        <li>
-                            <h4>NachOS</h4>
+                        <li class="project-title-container">
+                            <p class="project-title">
+                                <a href="#">
+                                    NachOS
+                                </a>
+                                <span>2020</span>
+                            </p>
+                            <span>Java</span>
+                            <ul>
+                                Implemented various functionalities involving systems calls, thread handling and
+                                multi-programming.
+                            </ul>
                         </li>
                     </ul>
                 </li>
-                <li>
-                    <h3>C Compiler</h3>
+
+                <li class="project-title-container">
+                    <p class="project-title">
+                        <a href="#">
+                            C Compiler
+                        </a>
+                        <span>2019</span>
+                    </p>
+                    <span>C++ | Flex | Bison</span>
+                    <ul>
+                        Written a compiler for a subset of C programming language features, that can produce ASM code
+                        for 8086 microprocessor.
+                    </ul>
+                </li>
+
+                <li class="project-title-container">
+                    <p class="project-title">
+                        <a href="#">
+                            Smart Room
+                        </a>
+                        <span>2019</span>
+                    </p>
+                    <span>C | Atmega-32</span>
+                    <ul>
+                        Developed a smart room using light and temperature sensors. It automatically turns the lights
+                        and fans on or off based on the presence of
+                        humans inside the room. It considers the readings from both the sensors and act accordingly.
+                    </ul>
                 </li>
 
                 <li>
                     <h3>Machine Learning</h3>
                     <ul>
-                        <li>
-                            <h4>Pneumonia Detection From Chest X-ray</h4>
+                        <li class="project-title-container">
+                            <p class="project-title">
+                                <a href="#">
+                                    Pneumonia Detection From Chest X-ray
+                                </a>
+                                <span>2022</span>
+                            </p>
+                            <span>Python</span>
+                            <ul>
+                                Trained an ML model to detect pneumonia by observing chest x-ray.
+                                Implemented the functionality to provide saliency map in x-rays.
+                            </ul>
                         </li>
-                        <li>
-                            <h4>Convolutional Neural Network(CNN)</h4>
+                        <li class="project-title-container">
+                            <p class="project-title">
+                                <a href="#">
+                                    Convolutional Neural Network(CNN)
+                                </a>
+                                <span>2022</span>
+                            </p>
+                            <span>Python</span>
+                            <ul>
+                                Implemented a CNN from scratch using Python, that can classify images.
+                            </ul>
                         </li>
                     </ul>
                 </li>
@@ -207,40 +272,164 @@
                 <li>
                     <h3>Artificial Intellengence</h3>
                     <ul>
-                        <li>
-                            <h4>Lines of Action</h4>
+                        <li class="project-title-container">
+                            <p class="project-title">
+                                <a href="#">
+                                    Lines of Action
+                                </a>
+                                <span>2021</span>
+                            </p>
+                            <span>Python | C++</span>
+                            <ul>
+                                Developed an agent using min-max algorithm with alpha-beta pruning. Also supports
+                                multiplayer mode.
+                            </ul>
                         </li>
-                        <li>
-                            <h4>Ghost Busters</h4>
+                        <li class="project-title-container">
+                            <p class="project-title">
+                                <a href="#">
+                                    Ghost Busters
+                                </a>
+                                <span>2021</span>
+                            </p>
+                            <span>Python</span>
+                            <ul>
+                                Using Hidden Markov Model (HMM) and Particle Filtering, modeled the Ghost Hunting
+                                problem.
+                            </ul>
                         </li>
-                        <li>
-                            <h4>Latin Square</h4>
+                        <li class="project-title-container">
+                            <p class="project-title">
+                                <a href="#">
+                                    Latin Square
+                                </a>
+                                <span>2021</span>
+                            </p>
+                            <span>C++</span>
+                            <ul>
+                                Using CSP solving algorithm along with heuristics, solved the Latin Square problem.
+                            </ul>
                         </li>
-                        <li>
-                            <h4>Optimal Exam Scheduling</h4>
+                        <li class="project-title-container">
+                            <p class="project-title">
+                                <a href="#">
+                                    Optimal Exam Scheduling
+                                </a>
+                                <span>2021</span>
+                            </p>
+                            <span>C++</span>
+                            <ul>
+                                Used Local search with heuristics to solve Exam scheduling problem.
+                            </ul>
                         </li>
-                        <li>
-                            <h4>n-puzzle</h4>
+                        <li class="project-title-container">
+                            <p class="project-title">
+                                <a href="#">
+                                    n-puzzle
+                                </a>
+                                <span>2021</span>
+                            </p>
+                            <span>C++</span>
+                            <ul>
+                                Solved n-puzzle problem with A-star search combining with heuristics.
+                            </ul>
                         </li>
                     </ul>
                 </li>
 
                 <li>
-                    <h3>Smart Room</h3>
+                    <h3>Computer Security</h3>
+                    <ul>
+                        <li class="project-title-container">
+                            <p class="project-title">
+                                <a href="#">
+                                    AES Standard Implementation
+                                </a>
+                                <span>2021</span>
+                            </p>
+                            <span>Python</span>
+                            <ul>
+                                Implemented AES from scratch using Python which can be used to encrypt and decrypt text
+                                and files.
+                            </ul>
+                        </li>
+                        <li class="project-title-container">
+                            <p class="project-title">
+                                <a href="#">
+                                    Cross Site Scripting (XSS) Attack
+                                </a>
+                                <span>2021</span>
+                            </p>
+                            <span>C++</span>
+                            <ul>
+                                Using a web application named Elgg provided in a pre-built Ubuntu VM, exploited the
+                                existing XSS vulnerability
+                                to launch an XSS attack.
+                            </ul>
+                        </li>
+                        <li class="project-title-container">
+                            <p class="project-title">
+                                <a href="#">
+                                    DoS Attack
+                                </a>
+                                <span>2021</span>
+                            </p>
+                            <span>C++</span>
+                            <ul>
+                                Launched a DoS attack using IP spoofing.
+                            </ul>
+                        </li>
+                    </ul>
                 </li>
+
+
 
                 <li>
                     <h3>Web App</h3>
                     <ul>
 
-                        <li>
-                            <h4>Healthcare Management system</h4>
+                        <li class="project-title-container">
+                            <p class="project-title">
+                                <a href="https://github.com/rhs99/hms" target="_blank">
+                                    Healthcare Management system
+                                </a>
+                                <span>2024</span>
+                            </p>
+                            <span>Pyhon | MySQL | ReactJS</span>
+                            <ul>
+                                Designed and developed a system that brings all the hospitals, doctors and diagnostic
+                                centers together.
+                                Patients can easily take appointment to doctors.
+                            </ul>
                         </li>
-                        <li>
-                            <h4>Learn Together</h4>
+                        <li class="project-title-container">
+                            <p class="project-title">
+                                <a href="https://github.com/rhs99/learn-together" target="_blank">
+                                    Learn Together
+                                </a>
+                                <span>2024</span>
+                            </p>
+                            <span>NodeJS | ReactJS | MongoDB</span>
+                            <ul>
+                                Designed and developed a StackOverflow like system for academic purpose.
+                            </ul>
                         </li>
-                        <li>
-                            <h4>University Institutional Information System</h4>
+                        <li class="project-title-container">
+                            <p class="project-title">
+                                <a href="https://github.com/RedwanPlague/uiis-back-end" target="_blank">
+                                    University Institutional Information System
+                                </a>
+                                <span>2020-2021</span>
+                            </p>
+                            <span>NodeJS | VueJS | MongoDB</span>
+                            <ul>
+                                Developed a comprehensive system that empowers Teachers, Students, and Admins of a
+                                university to efficiently carry out their tasks and
+                                responsibilities.
+                                Implemented a highly flexible role-based access management feature, ensuring secure and
+                                customizable access control.
+                                Implemented batch update, and automatic retry of mini-batches in case of failure.
+                            </ul>
                         </li>
                     </ul>
                 </li>
@@ -248,11 +437,35 @@
                 <li>
                     <h3>Desktop App</h3>
                     <ul>
-                        <li>
-                            <h4>Drug Information Management System</h4>
+                        <li class="project-title-container">
+                            <p class="project-title">
+                                <a href="https://github.com/rhs99/DIMS" target="_blank">
+                                    Drug Information Management System
+                                </a>
+                                <span>2019</span>
+                            </p>
+                            <span>Java | JavaFX | PostgreSQL</span>
+                            <ul>
+                                Designed and developed a robust Drug Information System that offers comprehensive
+                                information on various medications.
+                                Developed pharmacy inventory management system that includes a powerful search
+                                functionality. The system enables efficient tracking of
+                                essential medicines and provides the ability to locate the nearest pharmacy with the
+                                required quantity of medications.
+                            </ul>
                         </li>
-                        <li>
-                            <h4>Network Texas Hold'em Poker</h4>
+                        <li class="project-title-container">
+                            <p class="project-title">
+                                <a href="https://github.com/rhs99/Network_Texas_Holdem_Poker" target="_blank">
+                                    Network Texas Hold'em Poker
+                                </a>
+                                <span>2018</span>
+                            </p>
+                            <span>Java | JavaFX</span>
+                            <ul>
+                                Implemented a Java based desktop game that allows multiple players to get connected via
+                                LAN and play poker.
+                            </ul>
                         </li>
                     </ul>
                 </li>
