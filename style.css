@@ -1,7 +1,7 @@
 html,
 body {
     box-sizing: border-box;
-    background-color: rgb(176, 226, 223);
+    background-color: rgb(190, 214, 224);
     line-height: 1.5em;
     font-size: 1.2em;
     padding: 0;
@@ -26,11 +26,11 @@ ul {
     align-items: center;
     justify-content: space-between;
     overflow: hidden;
-    background-color: rgb(66, 204, 195);
+    background-color: rgb(4, 70, 109);
     position: fixed;
     top: 0;
     width: 100%;
-    height: 50px;
+    height: 60px;
     margin: 0;
 }
 
@@ -39,7 +39,7 @@ ul {
     flex-direction: column;
     align-items: center;
     overflow: hidden;
-    background-color: rgb(66, 204, 195);
+    background-color: rgb(4, 70, 109);
     position: fixed;
     top: 0;
     width: 100%;
@@ -51,13 +51,13 @@ ul {
 
 .navigation a {
     text-decoration: none;
-    color: black !important;
+    color: white !important;
     padding: 10px;
 }
 
 .navigation-xs a {
     text-decoration: none;
-    color: black !important;
+    color: white !important;
     padding: 0;
 }
 
