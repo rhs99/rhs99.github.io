@@ -17,8 +17,12 @@ h4 {
     padding: 0;
 }
 
+h2 {
+    margin-bottom: 10px;
+}
+
 ul {
-    list-style-type: none;
+    margin: 0;
 }
 
 .navigation {
@@ -109,6 +113,13 @@ ul {
     font-size: .9em;
 }
 
+.section-content {
+    margin-left: 20px;
+}
+
+.section-content p {
+    margin-top: 5px;
+}
 
 .exp-list,
 .project-list {
@@ -117,10 +128,15 @@ ul {
     gap: 20px;
 }
 
+.project-list ul {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
 
 .project-title-container {
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
 }
 
 .project-title-container span {
@@ -129,9 +145,8 @@ ul {
 }
 
 .project-title {
-    font-weight: bold;
     display: flex;
-    justify-content: space-between;
+    gap: 30px;
 }
 
 .project-title span {
@@ -142,7 +157,7 @@ ul {
 
 @media only screen and (max-width: 960px) {
     ul {
-        padding: 0 0 0 10px;
+        padding: 0 0 0 20px;
     }
 
     .navigation {
@@ -175,6 +190,20 @@ ul {
 
     .custom-title {
         flex-direction: column;
+    }
+
+    .project-title-container {
+        line-height: 1.2em;
+        flex-direction: column;
+    }
+
+    .section-content p {
+        line-height: 1.2em;
+    }
+
+    .project-title {
+        flex-direction: column;
+        gap: 0;
     }
 
 }
