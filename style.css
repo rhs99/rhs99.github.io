@@ -104,6 +104,21 @@ ul {
     margin-bottom: 10px;
 }
 
+.courses-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    font-size: small;
+}
+
+.courses-list span {
+    padding: 5px;
+    background-color: lightblue;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    white-space: nowrap;
+}
+
 .projects-list {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
