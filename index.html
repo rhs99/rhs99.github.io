@@ -1,347 +1,341 @@
 <!DOCTYPE html>
+<html lang="en">
 
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <title>Rakibul Sarker</title>
+  <title>Md. Rakibul Hasan Sarker - Software Engineer</title>
   <link href="style.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 
 <body>
   <nav class="navigation">
-    <a href="#">Home</a>
-    <a href="#education">Education</a>
-    <a href="#research">Research</a>
-    <a href="#teaching">Teaching</a>
-    <a href="#professional">Professional</a>
-    <a href="#project">Projects</a>
+    <div class="nav-brand">
+      <span>Rakibul Sarker</span>
     </div>
-  </nav>
-  <nav class="navigation-xs">
-    <div>
-      <a href="#">Home</a>
+    <div class="nav-links">
+      <a href="#about">About</a>
       <a href="#education">Education</a>
       <a href="#research">Research</a>
       <a href="#teaching">Teaching</a>
-    </div>
-    <div>
-      <a href="#experience">Professional</a>
-      <a href="#project">Projects</a>
-    </div>
+      <a href="#professional">Experience</a>
+      <a href="#projects">Projects</a>
     </div>
   </nav>
 
-  <div class="content">
-    <div class="aboutme" id="about">
-      <img src="person.jpg" height="150px" style="border-radius: 15px; object-fit: contain;">
-      <div class="intro">
-        <h1>Md. Rakibul Hasan Sarker</h1>
-        <p style="text-align: justify; margin-top: 10px; margin-bottom: 10px; font-size: large;">
-          I'm a Computer Science and Engineering graduate,
-          currently working as a Software Engineer at Optimizely,
-          where I build and maintain complex large-scale systems.
-          My research interests encompass <strong>Computer Systems</strong>, with
-          a focus on <b>Operating Systems, Databases, and Distributed Systems</b>.
-          Additionally, I enjoy learning new algorithms and data structures, and
-          applying them to solve challenging problems.
-        </p>
-        <div class="contact">
-          <a href="mailto:rhrana99@gmail.com">rhrana99@gmail.com</a>
-          <a href="https://github.com/rhs99" target="_blank">Github</a>
-          <a href="https://linkedin.com/in/mrhs" target="_blank">LinkedIn</a>
+  <nav class="navigation-mobile">
+    <div class="nav-brand">
+      <span>Rakibul Sarker</span>
+    </div>
+    <div class="nav-links-mobile">
+      <a href="#about">About</a>
+      <a href="#education">Education</a>
+      <a href="#research">Research</a>
+      <a href="#teaching">Teaching</a>
+      <a href="#professional">Experience</a>
+      <a href="#projects">Projects</a>
+    </div>
+  </nav>
+
+  <main class="content">
+    <section class="hero" id="about">
+      <div class="hero-content">
+        <div class="profile-section">
+          <img src="person.jpg" alt="Md. Rakibul Hasan Sarker" class="profile-image">
+          <div class="profile-info">
+            <h1 class="name">Md. Rakibul Hasan Sarker</h1>
+            <p class="title">Software Engineer II at Optimizely</p>
+            <p class="bio">
+              Computer Science and Engineering graduate with expertise in building and maintaining
+              complex large-scale systems. Research interests include <strong>Computer Systems</strong>,
+              with focus on <strong>Operating Systems, Databases, and Distributed Systems</strong>.
+              Passionate about algorithms, data structures, and solving challenging technical problems.
+            </p>
+            <div class="contact-links">
+              <a href="mailto:rhrana99@gmail.com" class="contact-link">
+                <i class="fas fa-envelope"></i>
+                <span>rhrana99@gmail.com</span>
+              </a>
+              <a href="https://github.com/rhs99" target="_blank" class="contact-link">
+                <i class="fab fa-github"></i>
+                <span>GitHub</span>
+              </a>
+              <a href="https://linkedin.com/in/mrhs" target="_blank" class="contact-link">
+                <i class="fab fa-linkedin"></i>
+                <span>LinkedIn</span>
+              </a>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
+    </section>
 
-
-    <div id="education">
-      <h2>Education</h2>
+    <section id="education" class="section">
+      <h2 class="section-title">Education</h2>
       <div class="section-content">
-        <div class="head">
-          <a href="https://www.buet.ac.bd/web/#/" target="_blank">
-            Bangladesh University of Engineering and Technology(BUET)</a>
-          <span>Feb. 2017 - May 2022</span>
+        <div class="education-item">
+          <div class="item-header">
+            <div class="item-title">
+              <h3><a href="https://www.buet.ac.bd/web/#/" target="_blank">Bangladesh University of Engineering and
+                  Technology (BUET)</a></h3>
+              <p class="item-subtitle">
+                Bachelor of Science in <a href="https://cse.buet.ac.bd/" target="_blank">Computer Science and
+                  Engineering</a>
+              </p>
+            </div>
+            <span class="item-date">Feb 2017 - May 2022</span>
+          </div>
+
+          <div class="academic-stats">
+            <div class="stat">
+              <span class="stat-label">CGPA:</span>
+              <span class="stat-value">3.85 / 4.0</span>
+            </div>
+            <div class="stat">
+              <span class="stat-label">Rank:</span>
+              <span class="stat-value">16 out of 127 students</span>
+            </div>
+          </div>
+
+          <div class="courses-section">
+            <h4>Notable Courses</h4>
+            <div class="courses-grid">
+              <span class="course-tag">Operating Systems</span>
+              <span class="course-tag">Computer Networks</span>
+              <span class="course-tag">Database Systems</span>
+              <span class="course-tag">High Performance Database Systems</span>
+              <span class="course-tag">Compiler Design</span>
+              <span class="course-tag">Machine Learning</span>
+              <span class="course-tag">Artificial Intelligence</span>
+              <span class="course-tag">Data Structures & Algorithms I</span>
+              <span class="course-tag">Data Structures & Algorithms II</span>
+              <span class="course-tag">Object Oriented Programming</span>
+              <span class="course-tag">Structured Programming</span>
+            </div>
+          </div>
         </div>
-
-        <p class="sub-head">Bachelor of Science (B.Sc) in <a href="https://cse.buet.ac.bd/" target="_blank">Computer
-            Science and
-            Engineering(CSE)</a></p>
-        <ul>
-          <li>
-            <strong>CGPA: </strong>3.85 / 4.0
-          </li>
-          <li>
-            <strong>Rank: </strong>16 out of 127 students
-          </li>
-        </ul>
-
-        <div>
-          <p style="font-weight: bold; margin: 10px 0; color: blue;">Notable Courses:</p>
-
-          <p class="courses-list">
-                <span>CSE 313: Operating System</span>
-                <span>CSE 321: Computer Netwerks</span>
-                <span>CSE 215: Database</span>
-                <span>CSE 453: High Performance Database System</span>
-                <span>CSE 309: Compiler</span>
-                <span>CSE 471: Machine Learning</span>
-                <span>CSE 317: Artificial Intelligence</span>
-                <span>CSE 203: Data Structures and Algorithms I</span>
-                <span>CSE 207: Data Structures and Algorithms II</span>
-                <span>CSE 107: Object Oriented Programming Language</span>
-                <span>CSE 101: Structured Programming Language</span>
-          </p>
       </div>
-    </div>
+    </section>
 
-
-    <div id="research">
-      <h2>Research Experience</h2>
+    <section id="research" class="section">
+      <h2 class="section-title">Research Experience</h2>
       <div class="section-content">
-        <div class="head">
-          <p>
-            <strong>Undergrad Thesis:</strong>
-            <a href="https://drive.google.com/file/d/1lSdZeww2ibLpuT2OpFKmzyaO8gBozEaV/view?usp=drive_link"
-              target="_blank">
-              Cancer Genomic Analysis of Non Coding Regions</a>
+        <div class="research-item">
+          <div class="item-header">
+            <div class="item-title">
+              <h3>
+                <a href="https://drive.google.com/file/d/1lSdZeww2ibLpuT2OpFKmzyaO8gBozEaV/view?usp=drive_link"
+                  target="_blank">
+                  Cancer Genomic Analysis of Non-Coding Regions
+                </a>
+              </h3>
+              <p class="item-subtitle">Undergraduate Thesis</p>
+            </div>
+            <span class="item-date">2021 - 2022</span>
+          </div>
+
+          <div class="research-tags">
+            <span class="tag">Bioinformatics</span>
+            <span class="tag">Statistics</span>
+            <span class="tag">Machine Learning</span>
+          </div>
+
+          <p class="research-description">
+            Identified significant mutations in non-coding regions through statistical analysis and
+            developed a novel method to find mutual exclusivity and co-occurrence using logistic
+            regression and likelihood ratio test. Supervised by
+            <a href="https://scholar.google.com/citations?hl=en&user=Haius0wAAAAJ" target="_blank">Dr. Atif Rahman</a>
+            and
+            <a href="https://scholar.google.com/citations?hl=en&user=EuNfE44AAAAJ" target="_blank">Dr. Md Abul Hassan
+              Samee</a>.
           </p>
-          <span>2021 - 2022</span>
         </div>
-        <p class="sub-head">
-          <i>
-            Bioinformatics | Statistics | Machine Learning
-          </i>
-        </p>
-        <p style="text-align: justify;">
-          We tried to identify significant mutations in non-coding regions through statistical analysis.
-          We have also tried to develop a novel method to find mutual exclusivity and co-occurrence using
-          logistic regression and likelihood ratio test. This work was supervised by
-          <a href="https://scholar.google.com/citations?hl=en&user=Haius0wAAAAJ" target="_blank">
-            Dr. Atif Rahman</a>
-          and
-          <a href="https://scholar.google.com/citations?hl=en&user=EuNfE44AAAAJ" target="_blank">
-            Dr. Md Abul Hassan Samee
-          </a>
-        </p>
       </div>
-    </div>
+    </section>
 
-    <div id="teaching">
-      <h2>Teaching Experience</h2>
+    <section id="teaching" class="section">
+      <h2 class="section-title">Teaching Experience</h2>
       <div class="section-content">
-        <div class="head">
-          <p>
-            <a href="https://www.buet.ac.bd/web/#/" target="_blank">
-              Bangladesh University of Engineering and Technology(BUET)
-            </a>
-          </p>
-          <span>
-            Nov. 2022 - Apr. 2023
-          </span>
+        <div class="teaching-item">
+          <div class="item-header">
+            <div class="item-title">
+              <h3><a href="https://www.buet.ac.bd/web/#/" target="_blank">Bangladesh University of Engineering and
+                  Technology (BUET)</a></h3>
+              <p class="item-subtitle">Adjunct Lecturer</p>
+            </div>
+            <span class="item-date">Nov 2022 - Apr 2023</span>
+          </div>
+
+          <div class="courses-taught">
+            <h4>Courses Taught</h4>
+            <ul>
+              <li>CSE 109: Computer Programming</li>
+              <li>CSE 110: Computer Programming Sessional</li>
+              <li>CSE 204: Algorithm and Data Structures Sessional</li>
+              <li>CSE 102: Structured Programming Sessional</li>
+              <li>CSE 300: Technical Writing and Presentation Sessional</li>
+            </ul>
+          </div>
         </div>
-        <p class="sub-head" style="color: blue;">Adjunct Lecturer</p>
+      </div>
+    </section>
+
+    <section id="professional" class="section">
+      <h2 class="section-title">Professional Experience</h2>
+      <div class="section-content">
+        <div class="experience-timeline">
+          <div class="experience-item">
+            <div class="item-header">
+              <div class="item-title">
+                <h3>Software Engineer II</h3>
+                <p class="company"><a href="https://www.optimizely.com/" target="_blank">Optimizely</a></p>
+              </div>
+              <span class="item-date">Jan 2024 - Present</span>
+            </div>
+          </div>
+
+          <div class="experience-item">
+            <div class="item-header">
+              <div class="item-title">
+                <h3>Software Engineer I</h3>
+                <p class="company"><a href="https://www.optimizely.com/" target="_blank">Optimizely</a></p>
+              </div>
+              <span class="item-date">Nov 2022 - Dec 2023</span>
+            </div>
+          </div>
+
+          <div class="experience-item">
+            <div class="item-header">
+              <div class="item-title">
+                <h3>Software Engineering Intern</h3>
+                <p class="company"><a href="https://www.optimizely.com/" target="_blank">Optimizely</a></p>
+              </div>
+              <span class="item-date">May 2022 - Oct 2022</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <h2 class="section-title">Projects</h2>
+      <div class="projects-note">
         <p>
-          Instructed the following courses:
-        <ul>
-          <li>CSE109 : Computer Programming </li>
-          <li>CSE110 : Computer Programming Sessional </li>
-          <li>CSE204 : Algorithm and Data Structures Sessional </li>
-          <li>CSE102 : Structured Programming Sessional </li>
-          <li>CSE300 : Technical Writing and Presentation Sessional </li>
-        </ul>
+          <i class="fas fa-info-circle"></i>
+          Featured projects showcasing systems programming and software engineering skills.
+          View all projects on <a href="https://github.com/rhs99" target="_blank">GitHub</a>.
         </p>
       </div>
-    </div>
 
-
-
-    <div id="professional">
-      <h2>Professional Experience</h2>
-      <table border="2" cellspacing="0" cellpadding="10px"
-        style="margin: 10px 0 0 10px; background-color: aliceblue;">
-        <thead>
-          <tr>
-            <th>Position</th>
-            <th>Organization</th>
-            <th>Start</th>
-            <th>End</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>
-              Software Engineer II
-            </td>
-            <td>
-              <a href="https://www.optimizely.com/" target="_blank">Optimizely</a>
-            </td>
-            <td>
-              Jan. 2024
-            </td>
-            <td>
-              PRESENT
-            </td>
-          </tr>
-          <tr>
-            <td>
-              Software Engineer I
-            </td>
-            <td>
-              <a href="https://www.optimizely.com/" target="_blank">Optimizely</a>
-            </td>
-            <td>
-              Nov. 2022
-            </td>
-            <td>
-              Dec. 2023
-            </td>
-          </tr>
-          <tr>
-            <td>
-              Software Engineering Intern
-            </td>
-            <td>
-              <a href="https://www.optimizely.com/" target="_blank">Optimizely</a>
-            </td>
-            <td>
-              May 2022
-            </td>
-            <td>
-              Oct. 2022
-            </td>
-          </tr>
-        </tbody>
-      </table>
-      </ul>
-    </div>
-
-
-
-    <div id="project">
-      <h2>Projects</h2>
-
-      <p style="padding: 10px; color: red;">
-        I have listed a few of my works here. Please visit my
-        <a href="https://github.com/rhs99" target="_blank">Github</a>
-        to view them all.
-      </p>
-
-      <div class="projects-list">
-
-        <div>
-          <div class="project-head">
-            <a href="https://github.com/rhs99/xv6-labs-2023" target="_blank">
-              Xv6
-            </a>
-            <span>2024</span>
+      <div class="projects-grid">
+        <div class="project-card">
+          <div class="project-header">
+            <h3><a href="https://github.com/rhs99/xv6-labs-2023" target="_blank">Xv6 Operating System</a></h3>
+            <span class="project-year">2024</span>
           </div>
-
-          <p><i>C</i></p>
-
-          <p>
-            Xv6 is a UNIX like OS for instructional purpose.
-            Implemented unix utilities like sleep, find, xargs, pipe and
-            system calls like trace, sysinfo and pgaccess.
-            Reduced execution time for certain system calls by sharing
-            data in a read-only region between userspace and the kernel.
-            Implemented debugging functionalities like printing page tables,
-            showing function call stack. Added a feature to periodically
-            alert a process as it uses CPU time. Implemented
-            copy on write (COW) fork
+          <div class="project-tech">
+            <span class="tech-tag">C</span>
+            <span class="tech-tag">Operating Systems</span>
+          </div>
+          <p class="project-description">
+            Enhanced UNIX-like instructional OS with system utilities (sleep, find, xargs, pipe)
+            and system calls (trace, sysinfo, pgaccess). Implemented copy-on-write fork,
+            shared memory optimization, and debugging features including page table printing
+            and call stack visualization.
           </p>
         </div>
 
-        <div>
-          <div class="project-head">
-            <a href="https://github.com/rhs99/sqlite" target="_blank">
-              SQLite
-            </a>
-            <span>2024</span>
+        <div class="project-card">
+          <div class="project-header">
+            <h3><a href="https://github.com/rhs99/sqlite" target="_blank">SQLite Database</a></h3>
+            <span class="project-year">2024</span>
           </div>
-
-          <p><i>C++ | B-Tree</i></p>
-          <p>
-            SQLite is a relational database.
-            Implemented a simplified version of SQLite supporting SELECT queries
-            on a single table including WHERE clause. It also supports COUNT(*) aggregate query.
-            Implemented B-Tree indexing for fast query processing.
-          </p>
-
-        </div>
-
-        <div>
-          <div class="project-head">
-            <a href="https://github.com/rhs99/redis" target="_blank">
-              Redis
-            </a>
-            <span>2024</span>
+          <div class="project-tech">
+            <span class="tech-tag">C++</span>
+            <span class="tech-tag">B-Tree</span>
+            <span class="tech-tag">Database</span>
           </div>
-          <p><i>Python</i></p>
-          <p>
-            Redis is an in-memory database used as a key-value storage.
-            Implemented a distributed Redis server, supporting commands
-            like SET, GET, MULTI, DISCARD, EXEC etc.
-            Implemented replication using primary-replica architecture,
-            persistence of data using RDB file and
-            transaction for applying a group of commands.
+          <p class="project-description">
+            Simplified SQLite implementation supporting SELECT queries with WHERE clauses
+            and COUNT(*) aggregates. Features B-Tree indexing for optimized query performance
+            and efficient data retrieval.
           </p>
         </div>
 
-        <div>
-          <div class="project-head">
-            <a href="https://github.com/ImperishableMe/Nachos/tree/main">
-              NachOS
-            </a>
-            <span>2020</span>
+        <div class="project-card">
+          <div class="project-header">
+            <h3><a href="https://github.com/rhs99/redis" target="_blank">Distributed Redis</a></h3>
+            <span class="project-year">2024</span>
           </div>
-          <p><i>Java</i></p>
-          <p>
-            NachOS is an instructional OS written in Java.
-            Implemented core OS services involving systems calls,
-            thread handling and multi-programming.
+          <div class="project-tech">
+            <span class="tech-tag">Python</span>
+            <span class="tech-tag">Distributed Systems</span>
+          </div>
+          <p class="project-description">
+            In-memory key-value database supporting commands like SET, GET, MULTI, DISCARD, EXEC.
+            Implemented primary-replica replication, RDB persistence, and transaction support
+            for atomic command execution.
           </p>
         </div>
 
-        <div>
-          <div class="project-head">
-            <a href="https://github.com/rhs99/compiler" target="_blank">
-              C Compiler
-            </a>
-            <span>2019</span>
+        <div class="project-card">
+          <div class="project-header">
+            <h3><a href="https://github.com/rhs99/learn-together" target="_blank">Learn Together</a></h3>
+            <span class="project-year">2024</span>
           </div>
-
-          <p><i>C++ | Flex | Bison</i></p>
-
-          <p>
-            Written a compiler for a subset of C programming language features, that can produce ASM
-            code for 8086 microprocessor.
+          <div class="project-tech">
+            <span class="tech-tag">Node.js</span>
+            <span class="tech-tag">MongoDB</span>
+            <span class="tech-tag">React</span>
+          </div>
+          <p class="project-description">
+            Academic Q&A platform with support for mathematical expressions and images.
+            Features include question filtering, sorting, favorites, real-time notifications,
+            and comprehensive search functionality.
           </p>
         </div>
-        <div>
-          <div class="project-head">
-            <a href="https://github.com/rhs99/learn-together" target="_blank">
-              Learn Together
-            </a>
-            <span>2024</span>
+
+        <div class="project-card">
+          <div class="project-header">
+            <h3><a href="https://github.com/rhs99/compiler" target="_blank">C Compiler</a></h3>
+            <span class="project-year">2019</span>
           </div>
+          <div class="project-tech">
+            <span class="tech-tag">C++</span>
+            <span class="tech-tag">Flex</span>
+            <span class="tech-tag">Bison</span>
+          </div>
+          <p class="project-description">
+            Compiler for C programming language subset, generating assembly code for
+            8086 microprocessor. Implements lexical analysis, parsing, and code generation.
+          </p>
+        </div>
 
-          <p><i>NodeJS | MongoDB | ReactJS</i></p>
-
-          <p>
-            A <a href="https://stackoverflow.com/" target="_blank">
-              Stack Overflow</a> like system for academic purpose.
-            Question and answer can include images and
-            complex mathematical expressions. Users can add questions
-            to their favourite list. Questions can be filtered based
-            on tags, favourites and asked by me. Questions can sorted
-            by time, up or down vote and net vote. Users can get realtime
-            notification if any of their questions get answered.
+        <div class="project-card">
+          <div class="project-header">
+            <h3><a href="https://github.com/ImperishableMe/Nachos/tree/main" target="_blank">NachOS</a></h3>
+            <span class="project-year">2020</span>
+          </div>
+          <div class="project-tech">
+            <span class="tech-tag">Java</span>
+            <span class="tech-tag">Operating Systems</span>
+          </div>
+          <p class="project-description">
+            Instructional operating system implementation featuring core OS services
+            including system calls, thread management, and multiprogramming support.
           </p>
         </div>
       </div>
-    </div>
-  </div>
-</body>
+    </section>
+  </main>
 
+  <footer class="footer">
+    <div class="footer-content">
+      <p>&copy; 2024 Md. Rakibul Hasan Sarker. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
 
 </html>
