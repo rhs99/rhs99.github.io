@@ -13,7 +13,7 @@
 <body>
   <nav class="navigation">
     <div class="nav-brand">
-      <span>Rakibul Sarker</span>
+      <span>Md. Rakibul Hasan Sarker</span>
     </div>
     <div class="nav-links">
       <a href="#about">About</a>
@@ -27,8 +27,11 @@
 
   <nav class="navigation-mobile">
     <div class="nav-brand">
-      <span>Rakibul Sarker</span>
+      <span>Md. Rakibul Hasan Sarker</span>
     </div>
+    <button class="hamburger" aria-label="Toggle navigation">
+      <i class="fas fa-bars"></i>
+    </button>
     <div class="nav-links-mobile">
       <a href="#about">About</a>
       <a href="#education">Education</a>
@@ -336,6 +339,19 @@
       <p>&copy; 2024 Md. Rakibul Hasan Sarker. All rights reserved.</p>
     </div>
   </footer>
+  <script>
+    // Hamburger menu toggle for mobile nav
+    document.addEventListener('DOMContentLoaded', function () {
+      const hamburger = document.querySelector('.hamburger');
+      const navLinksMobile = document.querySelector('.nav-links-mobile');
+      if (hamburger && navLinksMobile) {
+        hamburger.addEventListener('click', function () {
+          navLinksMobile.classList.toggle('open');
+          hamburger.classList.toggle('active');
+        });
+      }
+    });
+  </script>
 </body>
 
 </html>
